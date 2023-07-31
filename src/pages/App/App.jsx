@@ -17,7 +17,7 @@ const AppSections=()=>{
 function App() {
 
   return (
-    <div className=' '>
+    <div className=''>
       
       <BrowserRouter>
       <NavBar/>

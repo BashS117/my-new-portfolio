@@ -15,11 +15,15 @@ export default {
         'Very-dark-blue': 'hsl(215, 32%, 27%)',
         'White': 'hsl(0, 0%, 100%)',
 
-        
+
         'navy': '#0a192f',
         'slate': 'hsl(225, 20%, 61%)',
         'light-slate': '#a8b2d1',
         'lightest-slate': '#ccd6f6',
+        'green': '#64ffda',
+      },
+       fontSize: {
+        clamp: "clamp(40px, 8vw, 60px)",
       },
     },
   },
