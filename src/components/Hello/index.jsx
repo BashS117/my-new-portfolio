@@ -1,7 +1,7 @@
 
 function Hello(){
     return(
-        <section className='flex justify-center flex-col items-start min-h-[80vh]; h-[80vh]'>
+        <section className='flex justify-center flex-col items-start min-h-[80vh]; h-[82vh] min-w-full'>
             <div className='' style={{ transitionDelay: '100ms' }}>
                 <h1 className="text-green mb-[18px] font-normal ">Hi, my name is</h1>
             </div>
@@ -19,7 +19,17 @@ function Hello(){
             </div>
 
             <div className='fadeup5' style={{ transitionDelay: '500ms' }}>
-                <a className='btn-3d'>Resume</a>
+                <a
+                  
+                className='
+                btn-3d block text-Cyan 
+                 border border-Cyan 
+                 py-[1rem] px-[2rem] rounded-[4px] mt-[50px] 
+                 
+                 cursor-pointer
+                 hover:shadow-custom-cyan  hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300
+                 '>Resume
+                 </a>
             </div>
             
 

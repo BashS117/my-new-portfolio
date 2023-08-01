@@ -25,6 +25,9 @@ export default {
        fontSize: {
         clamp: "clamp(40px, 8vw, 60px)",
       },
+      boxShadow: {
+        'custom-cyan': '4px 4px 0 var(--Cyan)',
+      },
     },
   },
   plugins: [],
