@@ -5,8 +5,8 @@ function AboutMe  ()  {
   return (
     <section className='section-about max-w-[900px]  mx-12'>
         <h2 className='number-heading'>About Me</h2>
-        <div className='inner grid grid-cols-2 gap-[50px]'>
-            <div className='about visible opacity-[1] min-w-[510px]  '>
+        <div className=' grid grid-cols-[3fr,2fr] gap-[50px]'>
+            <div className='about   '>
                 <div>
                     <p>
                     From childhood, I had access to a computer, and my desire for video games led me to download them illegally from the internet. This experience made me realize the potential of knowledge and sparked my interest in understanding how things worked, eventually leading me to discover programming.
@@ -25,7 +25,7 @@ function AboutMe  ()  {
 
                     </p>
                 </div>
-                <ul className='tech-list grid grid-cols-2 gap-y-[10px] mt-[20px] '>
+                <ul className='tech-list grid grid-cols-2 gap-y-[10px] mt-[20px] list-[disclosure-closed] pl-6 marker:text-Cyan text-sm'>
                     <li>Next.js</li>
                     <li>JavaScript (ES6+)</li>
                     <li>React.js</li>
@@ -35,18 +35,32 @@ function AboutMe  ()  {
                 </ul>
 
             </div>
-            <div className='about-picture'>
-                <div className='wrapper'>
-                    <div>
-                        <img src="myfoto" alt="" />
-                    </div>
-                    <div>
-                        <picture>
 
-                        </picture>
-                    </div>
-                </div>
-            </div>
+              <div className='about-picture group relative 
+              h-[min-content] w-[min-content]
+              '>
+                  <div className='wrapper absolute z-[1]  '>
+                      <figure className="                          
+                       hover:-translate-x-1.5 hover:-translate-y-1.5 transition-all duration-300
+                        ">
+                          <img className=" 
+                             h-[350px] w-[300px] object-cover rounded-[5px]" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/049411176699705.64c96d3db707b.jpeg" alt="" />
+                             {/* filtro */}
+                           <div className=" before:absolute before:bg-Cyan before:rounded-[5px] before:inset-0 before:w-full before:h-full  before:opacity-[0.35] before:transition-opacity before:duration-300 before:hover:opacity-0"></div>
+                      </figure>
+
+                  </div>
+                  <div className="
+                         after:relative t-[10px] w-[300px] h-[350px]
+                         after:content-[''] after:border-Cyan
+                         after:block  after:w-[100%] after:h-[100%] 
+                         after:rounded-[5px] after:border-[2px] 
+                         after:inset-[14px]
+
+                         group-hover:after:-translate-x-[-5px]
+                         group-hover:after:-translate-y-[-5px] group-hover:after:transition-all duration-300
+                  "></div>
+              </div>
             
         </div>
     </section>
