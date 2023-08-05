@@ -4,7 +4,7 @@ function Header  ()  {
   return (
    
       <nav
-      className=' px-[56px] bg-Very-dark-blue-main flex mt-[24px] justify-between items-center'>
+      className=' px-[56px] bg-Very-dark-blue-main flex pt-[24px] justify-between items-center '>
         <div className='logo'>
           LOGO
 
