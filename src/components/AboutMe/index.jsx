@@ -4,7 +4,7 @@
 function AboutMe  ()  {
   return (
     <section className='section-about max-w-[900px]  mx-12'>
-        <h2 className='number-heading'>About Me</h2>
+        <h2 className='number-heading section-list-item before:[content:"01."]'>About Me</h2>
         <div className=' grid grid-cols-[3fr,2fr] gap-[50px]'>
             <div className='about   '>
                 <div>
@@ -63,6 +63,7 @@ function AboutMe  ()  {
               </div>
             
         </div>
+        
     </section>
   )
 }

@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--lightest-slate);
   line-height: 1.1;
 }
+
 a:hover{
   color: Cyan;
   cursor: pointer;
@@ -61,8 +62,6 @@ section{
 }
 .number-heading::before{
   position: relative;
-  counter-increment: section 1;
-  content: "0" counter(section) ".";
   margin-right: 10px;
   color: var(--Cyan);
   font-size:22px;
@@ -70,6 +69,9 @@ section{
   font-family: monospace;
   top: 2px;
 }
+
+
+
 .number-heading::after{
   content: "";
   display: block;
