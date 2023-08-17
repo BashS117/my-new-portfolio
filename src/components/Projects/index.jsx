@@ -7,20 +7,20 @@ const Projects = () => {
           name: "Proyecto 1",
           imageSrc: "ruta/imagen-proyecto-2.jpg",
           features: ["Característica 1", "Característica 2", "Característica 3"],
-          contentClassName: "text-red-500", // Clase para estilos de contenido del proyecto 2
+          contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
         {
           name: "Proyecto 2",
           imageSrc: "ruta/imagen-proyecto-2.jpg",
           features: ["Característica 1", "Característica 2", "Característica 3"],
-          contentClassName: "text-red-500", // Clase para estilos de contenido del proyecto 2
+          contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
        
         },
         {
           name: "Proyecto 3",
           imageSrc: "ruta/imagen-proyecto-2.jpg",
           features: ["Característica 1", "Característica 2", "Característica 3"],
-          contentClassName: "text-red-500", // Clase para estilos de contenido del proyecto 2
+          contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
     
         
