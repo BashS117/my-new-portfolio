@@ -4,6 +4,7 @@ import OrientationLeft from '../../components/OrientationLeft'
 import OrientationRight from '../../components/OrientationRight'
 import AboutMe from '../../components/AboutMe'
 import Projects from '../../components/Projects'
+import Skills from '../../components/Skills'
  function Home  ()  {
   
   return (
@@ -16,6 +17,7 @@ import Projects from '../../components/Projects'
     <Hello/>
     <AboutMe/>
     <Projects/>
+    <Skills/>
 
 
 

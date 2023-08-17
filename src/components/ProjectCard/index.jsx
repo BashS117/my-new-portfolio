@@ -8,7 +8,7 @@ function ProjectCard  ({
 })  {
 
   return (
-    <div className="p-4 rounded-lg shadow-md bg-white">
+    <div className="p-4 rounded-lg shadow-md bg-[#112240]">
       <img src={imageSrc} alt={name} />
       <h2>{name}</h2>
       <ul className={contentClassName}> {/* Aplicar la clase de estilo de contenido específica */}
