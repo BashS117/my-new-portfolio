@@ -12,9 +12,9 @@ function ProjectCard  ({
 })  {
 
   return (
-    <div className="p-4 rounded-lg shadow-md bg-[#112240]">
+    <div className="p-4 rounded-lg shadow-md bg-[#112240] w-[450px] ">
         <figure>
-            <img className='h-[300px] w-[460px] object-cover' src={imageSrc} alt={name} />
+            <img className='h-[180px] w-[460px] object-cover ' src={imageSrc} alt={name} />
         </figure>
       <h2 className='text-Cyan'>{name}</h2>
       <ul className={`contentClassName flex mb-[10px]`}> {/* Aplicar la clase de estilo de contenido específica */}

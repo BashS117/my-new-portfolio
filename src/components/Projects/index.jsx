@@ -5,20 +5,20 @@ const Projects = () => {
     const myProjects=[
         {   
           name: "Sol y Luna",
-          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a01f3e177918813.64dec35daf90d.png",
+          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d65ae7177918813.64dfcda320402.png",
           features: ["char 11", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
         {
           name: "Proyecto 2",
-          imageSrc: "ruta/imagen-proyecto-2.jpg",
+          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d8e303177918813.64dfd24fc9d6b.png",
           features: ["char 1", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
        
         },
         {
           name: "Proyecto 3",
-          imageSrc: "ruta/imagen-proyecto-2.jpg",
+          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/cfe686177918813.64dfd24fc92fa.png",
           features: ["char 1", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
