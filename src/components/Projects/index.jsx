@@ -4,22 +4,22 @@ import ProjectCard from '../ProjectCard'
 const Projects = () => {
     const myProjects=[
         {   
-          name: "Proyecto 1",
-          imageSrc: "ruta/imagen-proyecto-2.jpg",
-          features: ["Característica 1", "Característica 2", "Característica 3"],
+          name: "Sol y Luna",
+          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a01f3e177918813.64dec35daf90d.png",
+          features: ["char 11", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
         {
           name: "Proyecto 2",
           imageSrc: "ruta/imagen-proyecto-2.jpg",
-          features: ["Característica 1", "Característica 2", "Característica 3"],
+          features: ["char 1", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
        
         },
         {
           name: "Proyecto 3",
           imageSrc: "ruta/imagen-proyecto-2.jpg",
-          features: ["Característica 1", "Característica 2", "Característica 3"],
+          features: ["char 1", "char 2", "char 3"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
     
@@ -33,7 +33,7 @@ const Projects = () => {
          <ProjectCard
          key={index}
          name={project.name}
-         imageSrc={project.name}
+         imageSrc={project.imageSrc}
          features={project.features}
          contentClassName={project.contentClassName}
       />
