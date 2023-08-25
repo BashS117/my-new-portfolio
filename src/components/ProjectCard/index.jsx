@@ -5,14 +5,16 @@ import {BiLinkExternal} from "react-icons/bi"
 
 
 function ProjectCard  ({
+  type,
     name,
+    description,
     imageSrc,
     features,
     contentClassName
 })  {
 
   return (
-    <div className="p-4 rounded-lg shadow-md bg-[#112240] w-[450px] ">
+    <div className="p-4 rounded-lg shadow-md bg-[#112240] w-[450px] hover:-translate-y-1.5 transition-all duration-300 ">
    
    
       <div className='relative cursor-pointer'> 
@@ -25,20 +27,27 @@ function ProjectCard  ({
         </figure>
           </div>
        
-    
-      <h2 className='text-Cyan'>{name}</h2>
-      <ul className={`contentClassName flex mb-[10px]`}> {/* Aplicar la clase de estilo de contenido específica */}
-        {features.map((feature, index) => (
+
+      <p className='mt-[8px] mb-0 text-Cyan text-[0.9rem]'>{type}</p>
+      <h2 className=''>
+        <a className='text-3xl' href="">{name}</a>
+      </h2>
+      <ul className={`contentClassName flex-col mb-[10px]`}> {/* Aplicar la clase de estilo de contenido específica */}
+        <p className='text-[0.9rem]'>{description}</p>
+       <div className='flex justify-evenly text-[0.8rem]'>
+       {features.map((feature, index) => (
           <li key={index}>{feature}</li>
         ))}
+       </div>
+
       </ul>
       <a href="" className="pb-[0px] mr-[10px]">
-         <AiFillGithub className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] "/>
+        <AiFillGithub className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] " />
       </a>
       <a href="" className="pb-[0px]">
-         <BiLinkExternal className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] "/>
+        <BiLinkExternal className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] " />
       </a>
-      
+
 
     </div>
   );

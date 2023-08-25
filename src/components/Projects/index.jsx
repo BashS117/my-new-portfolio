@@ -3,23 +3,29 @@ import ProjectCard from '../ProjectCard'
 
 const Projects = () => {
     const myProjects=[
-        {   
+        { 
+          type: "Personal Project", 
+          description:"An online perfume store's web app provides a shopping platform enabling users to choose between two perfume sizes and add selections to a virtual cart. Its direct WhatsApp integration, enabling customers to send orders to the seller via WhatsApp.", 
           name: "Sol y Luna",
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/280354177918813.64e3be891cc84.png",
-          features: ["char 11", "char 2", "char 3"],
+          features: ["React.js", "TailwindCSS", "Vite.js","React Router DOM"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
         {
-          name: "Proyecto 2",
+          type: "Personal Project",  
+          name: "E-commerce product page",
+          description: "I put my JS skills to the test with a lightbox product gallery and cart functionality!. In my gitHub repositories you'll find this challenge build whit React.js and whit some other features (named as React-eshop), I hope you check it out.",
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/821ddc177918813.64e3be891d77a.png",
-          features: ["char 1", "char 2", "char 3"],
+          features: ["VanillaJS", "DOM", "Css", "GitHub Pages"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
        
         },
         {
-          name: "Proyecto 3",
+          type: "Personal Project",  
+          name: "Todo app",
+          description:"The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/cfe686177918813.64dfd24fc92fa.png",
-          features: ["char 1", "char 2", "char 3"],
+          features: ["React.js", "Local Storage", "Custom Hooks" ],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
         },
     
@@ -32,6 +38,8 @@ const Projects = () => {
         {myProjects.map((project,index)=>(
          <ProjectCard
          key={index}
+         description={project.description}
+         type={project.type}
          name={project.name}
          imageSrc={project.imageSrc}
          features={project.features}
