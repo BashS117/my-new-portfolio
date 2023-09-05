@@ -32,7 +32,7 @@ const Projects = () => {
         
       ]
   return (
-    <section className=' '>
+    <section id='projects'>
      <h2 className='number-heading before:[content:"02."] '>  Some Things I´ve Built</h2>
 <div className='grid grid-cols-2 gap-4 min-w-[330px]'>
         {myProjects.map((project,index)=>(

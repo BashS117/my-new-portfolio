@@ -3,7 +3,7 @@
 
 function AboutMe  ()  {
   return (
-    <section className='section-about max-w-[900px] '>
+    <section className='section-about max-w-[900px] ' id="about">
         <h2 className='number-heading section-list-item before:[content:"01."]'>About Me</h2>
         <div className=' grid grid-cols-[3fr,2fr] gap-[50px]'>
             <div className='about   '>
@@ -39,17 +39,18 @@ function AboutMe  ()  {
               <div className='about-picture group relative 
               h-[min-content] w-[min-content]
               '>
-                  <div className='wrapper absolute z-[1]  '>
-                      <figure className="                          
-                       hover:-translate-x-1.5 hover:-translate-y-1.5 transition-all duration-300
-                        ">
-                          <img className=" 
-                             h-[350px] w-[300px] object-cover rounded-[5px]" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/049411176699705.64c96d3db707b.jpeg" alt="" />
-                             {/* filtro */}
-                           <div className=" before:absolute before:bg-Cyan before:rounded-[5px] before:inset-0 before:w-full before:h-full  before:opacity-[0.35] before:transition-opacity before:duration-300 before:hover:opacity-0"></div>
-                      </figure>
+                    <div className='wrapper absolute z-[1]  '>
+                        <figure className="                          
+                        hover:-translate-x-1.5 hover:-translate-y-1.5 transition-all duration-300
+                            ">
+                            <img className=" 
+                                h-[350px] w-[300px] object-cover rounded-[5px]" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/049411176699705.64c96d3db707b.jpeg" alt="" />
+                                {/* filtro */}
+                            <div className=" before:absolute before:bg-Cyan before:rounded-[5px] before:inset-0 before:w-full before:h-full  before:opacity-[0.35] before:transition-opacity before:duration-300 before:hover:opacity-0"></div>
+                        </figure>
+                    </div>
 
-                  </div>
+
                   <div className="
                          after:relative t-[10px] w-[300px] h-[350px]
                          after:content-[''] after:border-Cyan

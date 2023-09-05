@@ -1,33 +1,27 @@
-import { useRoutes, BrowserRouter } from 'react-router-dom'
-import { Home } from '../Home'
-import NavBar from '../../components/NavBar'
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Importa BrowserRouter, Route y Routes
+import { Home } from '../Home';
+import NavBar from '../../components/NavBar';
+import './App.css';
+import Skills from '../../components/Skills';
+import Projects from '../../components/Projects';
 
-const AppSections=()=>{
-  let routes=useRoutes([
-    {path: '/', element:<Home/>},
-
-
-    // {path:'/*',element: <NotFound/>},
-  ])
-  return routes;
-
-}
+// ... (otros componentes y estilos)
 
 function App() {
-
   return (
     <div className=''>
-      
       <BrowserRouter>
-      <NavBar/>
-
-      <AppSections/>
-      
+        <NavBar />
+        <Routes> {/* Utiliza el componente Routes en lugar de useRoutes */}
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          {/* Agrega rutas adicionales según tus necesidades */}
+          {/* <Route path="/*" element={<NotFound />} /> */} {/* Puedes agregar una ruta NotFound si es necesario */}
+        </Routes>
       </BrowserRouter>
-      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
