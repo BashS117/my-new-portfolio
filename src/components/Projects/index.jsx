@@ -10,6 +10,8 @@ const Projects = () => {
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/280354177918813.64e3be891cc84.png",
           features: ["React.js", "TailwindCSS", "Vite.js","React Router DOM"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
+          projectLink: "https://sol-y-luna-23.netlify.app",
+          repositoryLink: "https://github.com/BashS117/solyluna"
         },
         {
           type: "Personal Project",  
@@ -18,6 +20,8 @@ const Projects = () => {
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/821ddc177918813.64e3be891d77a.png",
           features: ["VanillaJS", "DOM", "Css", "GitHub Pages"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
+          projectLink: "https://bashs117.github.io/react-eshop/",
+          repositoryLink: "https://github.com/BashS117/react-eshop"
        
         },
         {
@@ -27,6 +31,8 @@ const Projects = () => {
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/cfe686177918813.64dfd24fc92fa.png",
           features: ["React.js", "Local Storage", "Custom Hooks" ],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
+          projectLink: "https://bashs117.github.io/todoapp/",
+          repositoryLink: "https://github.com/BashS117/todoapp"
         },
     
         
@@ -44,6 +50,8 @@ const Projects = () => {
          imageSrc={project.imageSrc}
          features={project.features}
          contentClassName={project.contentClassName}
+         directLink={project.projectLink}
+         repositoryLink={project.repositoryLink}
       />
     ))}
     </div>

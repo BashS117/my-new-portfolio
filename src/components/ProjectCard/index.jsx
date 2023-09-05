@@ -10,7 +10,9 @@ function ProjectCard  ({
     description,
     imageSrc,
     features,
-    contentClassName
+    contentClassName,
+    directLink,
+    repositoryLink
 })  {
 
   return (
@@ -19,18 +21,21 @@ function ProjectCard  ({
    
       <div className='relative cursor-pointer'> 
       <figure>
+        <a href={directLink}>
             <img className='h-[220px] w-[460px] object-cover rounded-md ' src={imageSrc} alt={name} />
             <div className=" before:absolute before:bg-navy before:rounded-[5px]  before:inset-0 before:w-full before:h-full  before:opacity-[0.50] before:transition-opacity before:duration-300 before:hover:opacity-0">
             <div className=" before:absolute before:bg-Cyan before:rounded-[5px]  before:inset-0 before:w-full before:h-full  before:opacity-[0.45] before:transition-opacity before:duration-300 before:hover:opacity-0"></div>
 
-            </div>
+
+
+            </div></a>
         </figure>
           </div>
        
 
       <p className='mt-[8px] mb-0 text-Cyan text-[0.9rem]'>{type}</p>
       <h2 className=''>
-        <a className='text-3xl' href="">{name}</a>
+        <a className='text-3xl' href={directLink}>{name}</a>
       </h2>
       <ul className={`contentClassName flex-col mb-[10px]`}> {/* Aplicar la clase de estilo de contenido específica */}
         <p className='text-[0.9rem]'>{description}</p>
@@ -41,10 +46,10 @@ function ProjectCard  ({
        </div>
 
       </ul>
-      <a href="" className="pb-[0px] mr-[10px]">
+      <a href={repositoryLink} className="pb-[0px] mr-[10px]">
         <AiFillGithub className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] " />
       </a>
-      <a href="" className="pb-[0px]">
+      <a href={directLink} className="pb-[0px]">
         <BiLinkExternal className="h-7 w-7  inline-block transform transition-transform duration-200 ease-in hover:-translate-y-[6px] " />
       </a>
 
