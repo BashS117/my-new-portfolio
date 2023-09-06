@@ -1,0 +1,19 @@
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px; /* Espaciado interior para separar los iconos del borde */
+    border: 2px solid var(--Cyan); /* Borde sólido de 2px de grosor */
+    border-width: 2px 0; /* Borde solo en la parte superior e inferior */
+    border-radius: 10px; /* Radio de borde para esquinas redondeadas */
+  }
+  
+  .skill-icon {
+    margin: 5px; /* Espaciado entre los iconos */
+    padding: 10px; /* Espaciado interior para dar espacio a los iconos */
+    /* Estilos de tus iconos (tamaño, color, fondo, etc.) */
+  }
+
+  

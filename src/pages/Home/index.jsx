@@ -5,6 +5,7 @@ import OrientationRight from '../../components/OrientationRight'
 import AboutMe from '../../components/AboutMe'
 import Projects from '../../components/Projects'
 import Skills from '../../components/Skills'
+import Contact from '../../components/Contact'
  function Home  ()  {
   
   return (
@@ -18,6 +19,7 @@ import Skills from '../../components/Skills'
     <AboutMe/>
     <Projects/>
     <Skills/>
+    <Contact/>
 
 
 
