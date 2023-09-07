@@ -16,17 +16,18 @@ function Header() {
 
   return (
     <nav className='px-[56px] bg-Very-dark-blue-main flex pt-[24px] justify-between items-center sticky z-10'>
-      <div className='logo'>LOGO</div>
+      <div className='logo'>
+      <img width="64" height="64" src="https://img.icons8.com/nolan/64/console.png" alt="console"/>      </div>
       <div className='navbar-right'>
         <ol className="marker:text-Cyan flex gap-16 list-[decimal-leading-zero]">
           <li>
-            <Link to="#about" onClick={() => scrollToSection('about')}>About</Link>
+            <Link to="#about" onClick={() => scrollToSection('projects')}>Projects</Link>
           </li>
           <li>
-            <Link to="#skills" onClick={() => scrollToSection('skills')}>Skills</Link>
+            <Link to="#skills" onClick={() => scrollToSection('about')}>About</Link>
           </li>
           <li>
-            <Link to="#projects" onClick={() => scrollToSection('projects')}>Projects</Link>
+            <Link to="#projects" onClick={() => scrollToSection('skills')}>Skills</Link>
           </li>
           <li>
             <Link to="#contact" onClick={() => scrollToSection('contact')}>Contact</Link>
