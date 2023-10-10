@@ -10,7 +10,7 @@ import Footer from '../../components/Footer'
  function Home  ()  {
   
   return (
-   <div className='px-[180px] pt-[50px]'>
+   <div className='sm:px-[30px] px-[180px] pt-[50px]'>
 
     <OrientationLeft/>
     <OrientationRight/>

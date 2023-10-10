@@ -5,7 +5,7 @@ import {SiFrontendmentor} from "react-icons/si"
 
 function OrientationLeft () {
     return (
-        <div className='orientation-left fixed left-10 bottom-0 z-10 text-light-slate '>
+        <div className='sm:hidden orientation-left fixed left-10 bottom-0 z-10 text-light-slate '>
             <ul className='social-style flex flex-col items-center after:content:" " after:bg-light-slate after:w-[1px] after:block after:h-[100px]'>
                 <li className='pb-[17px]'>
                     <a href="https://github.com/BashS117" className="pb-[0px]">

@@ -6,14 +6,14 @@ function Contact ()  {
     <section id="contact">
         <div>
         <h1 className=' number-heading get-in-touch section-list-item before:[content:"04."] '>
-            Get In Touch
+        What's Next? 
         </h1>
         </div>
         
 
         <div className='mt-10 flex flex-col items-center'>
-            <h1 className='text-Cyan text-[50px]'>What´s Next?</h1>
-            <p className='mt-10 px-[100px]'>
+            <h1 className='text-Cyan text-[50px]'>Get In Touch</h1>
+            <p className='sm:p-0 sm:text-center mt-10 px-[100px]'>
             Thank you for visiting my portfolio! If you're interested in discussing a project, have a question, or simply want to say hello, I'd love to hear from you. Feel free to reach out using the button below, and I'll get back to you as soon as possible.
           
             </p>
