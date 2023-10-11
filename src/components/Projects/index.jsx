@@ -69,8 +69,8 @@ const Projects = () => {
       ]
   return (
     <section id='projects'>
-     <h2 className='number-heading before:[content:"01."] '>  Some Things I´ve Built</h2>
-<div className='sm:min-w-[375px] sm:flex sm:flex-col sm:items-center grid grid-cols-2 gap-4 min-w-[330px]'>
+     <h2 className='sm:text-[1.5rem] number-heading before:[content:"01."] '>  Some Things I´ve Built</h2>
+<div className=' sm:flex sm:flex-col sm:items-center grid grid-cols-2 gap-4 '>
         {myProjects.map((project,index)=>(
          <ProjectCard
          key={index}

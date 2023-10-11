@@ -16,13 +16,13 @@ function ProjectCard  ({
 })  {
 
   return (
-    <div className="p-4 rounded-lg shadow-md bg-[#112240] w-[450px] hover:-translate-y-1.5 transition-all duration-300 ">
+    <div className="sm:w-[315px] p-4 rounded-lg shadow-md bg-[#112240] w-[450px] hover:-translate-y-1.5 transition-all duration-300 ">
    
    
       <div className='relative cursor-pointer'> 
       <figure>
         <a href={directLink}>
-            <img className='h-[220px] w-[460px] object-cover rounded-md ' src={imageSrc} alt={name} />
+            <img className='sm:h-[160px] sm:w-[310px] h-[220px] w-[460px] object-cover rounded-md ' src={imageSrc} alt={name} />
             <div className=" before:absolute before:bg-navy before:rounded-[5px]  before:inset-0 before:w-full before:h-full  before:opacity-[0.50] before:transition-opacity before:duration-300 before:hover:opacity-0">
             <div className=" before:absolute before:bg-Cyan before:rounded-[5px]  before:inset-0 before:w-full before:h-full  before:opacity-[0.45] before:transition-opacity before:duration-300 before:hover:opacity-0"></div>
 

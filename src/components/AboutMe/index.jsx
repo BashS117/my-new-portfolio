@@ -4,7 +4,7 @@
 function AboutMe  ()  {
   return (
     <section className='section-about max-w-[900px] ' id="about">
-        <h2 className='number-heading section-list-item before:[content:"02."]'>About Me</h2>
+        <h2 className='sm:text-[1.5rem] number-heading section-list-item before:[content:"02."]'>About Me</h2>
         <div className='sm:flex sm:flex-col sm:items-center grid grid-cols-[3fr,2fr] gap-[50px]'>
             <div className='about   '>
                 <div>

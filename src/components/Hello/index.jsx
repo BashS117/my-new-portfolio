@@ -1,7 +1,7 @@
 
 function Hello(){
     return(
-        <section className='flex justify-center flex-col items-start min-h-[80vh];  min-w-full'>
+        <section className='sm:pt-14 flex justify-center flex-col items-start min-h-[80vh];  min-w-full'>
             <div className='' style={{ transitionDelay: '100ms' }}>
                 <h1 className="text-green mb-[18px] font-normal ">Hi, my name is</h1>
             </div>
