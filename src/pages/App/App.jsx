@@ -9,7 +9,7 @@ import Projects from '../../components/Projects';
 
 function App() {
   return (
-    <div className=''>
+    <div >
       <BrowserRouter>
         <NavBar />
         <Routes> {/* Utiliza el componente Routes en lugar de useRoutes */}
