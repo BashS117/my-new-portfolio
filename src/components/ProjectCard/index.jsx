@@ -33,9 +33,9 @@ function ProjectCard  ({
           </div>
        
 
-      <p className='mt-[8px] mb-0 text-Cyan text-[0.9rem]'>{type}</p>
+      <p className= ' mt-[8px] mb-0 text-Cyan text-[0.9rem]'>{type}</p>
       <h2 className=''>
-        <a className='text-3xl' href={directLink}>{name}</a>
+        <a className='sm:text-[1.6rem] text-3xl' href={directLink}>{name}</a>
       </h2>
       <ul className={`contentClassName flex-col mb-[10px]`}> {/* Aplicar la clase de estilo de contenido específica */}
         <p className='text-[0.9rem]'>{description}</p>
