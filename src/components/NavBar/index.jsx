@@ -21,7 +21,7 @@ function Header() {
       <img width="64" height="64" src="https://img.icons8.com/nolan/64/console.png" alt="console"/>     
         </div>
 
-        <BiMenuAltRight className='text-[var(--Cyan)] w-12 h-12 opacity-[80%]'/>
+        <BiMenuAltRight className='sm:flex hidden text-[var(--Cyan)] w-12 h-12 opacity-[80%]'/>
 
       <div className='sm:hidden navbar-right'>
         <ol className="marker:text-Cyan flex gap-16 list-[decimal-leading-zero]">
