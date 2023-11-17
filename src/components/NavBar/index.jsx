@@ -50,13 +50,13 @@ function Header() {
       />
         <ol className="sm:flex-col sm marker:text-Cyan flex gap-16 list-[decimal-leading-zero]">
           <li>
-            <Link to="#about" onClick={() => scrollToSection('projects')}>Projects</Link>
+            <Link to="#projects" onClick={() => scrollToSection('projects')}>Projects</Link>
           </li>
           <li>
-            <Link to="#skills" onClick={() => scrollToSection('about')}>About</Link>
+            <Link to="#about" onClick={() => scrollToSection('about')}>About</Link>
           </li>
           <li>
-            <Link to="#projects" onClick={() => scrollToSection('skills')}>Skills</Link>
+            <Link to="#skills" onClick={() => scrollToSection('skills')}>Skills</Link>
           </li>
           <li>
             <Link to="#contact" onClick={() => scrollToSection('contact')}>Contact</Link>
