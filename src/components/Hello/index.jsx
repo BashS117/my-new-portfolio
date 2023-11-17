@@ -23,6 +23,9 @@ function Hello(){
 
             <div className='fadeup5' style={{ transitionDelay: '500ms' }}>
                 <a
+                href="/Sebastian-Rodriguez-CV-newResume.pdf"
+
+                download
                   
                 className='
                 btn-3d block text-Cyan 
@@ -30,8 +33,9 @@ function Hello(){
                  py-[1rem] px-[2rem] rounded-[4px] mt-[50px] 
                  
                  cursor-pointer
-                 hover:shadow-custom-cyan  hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300
-                 '>Resume
+                 hover:shadow-custom-cyan  hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300'
+
+                 >Resume
                  </a>
             </div>
             
