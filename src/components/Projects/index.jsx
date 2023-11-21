@@ -10,7 +10,7 @@ const Projects = () => {
           imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/280354177918813.64e3be891cc84.png",
           features: ["React.js", "TailwindCSS", "Vite.js","React Router DOM"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
-          projectLink: "https://sol-y-luna-23.netlify.app",
+          projectLink: "https://solyluna23.netlify.app",
           repositoryLink: "https://github.com/BashS117/solyluna"
         },
         { 
