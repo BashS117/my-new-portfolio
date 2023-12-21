@@ -7,7 +7,7 @@ const Projects = () => {
           type: "Personal Project", 
           description:"An online perfume store's web app provides a shopping platform enabling users to choose between two perfume sizes and add selections to a virtual cart. Its direct WhatsApp integration, enabling customers to send orders to the seller via WhatsApp.", 
           name: "Sol y Luna",
-          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/280354177918813.64e3be891cc84.png",
+          imageSrc: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/82f147177918813.6584afce9e9ca.png",
           features: ["React.js", "TailwindCSS", "Vite.js","React Router DOM"],
           contentClassName: "text-lightest-slate", // Clase para estilos de contenido del proyecto 2
           projectLink: "https://solyluna23.netlify.app",
