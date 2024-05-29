@@ -23,7 +23,7 @@ function Hello(){
 
             <div className='fadeup5' style={{ transitionDelay: '500ms' }}>
                 <a
-                href="/Sebastian-Rodriguez-CV-newResume.pdf"
+                href="/Sebastian-CV.pdf"
 
                 download
                   

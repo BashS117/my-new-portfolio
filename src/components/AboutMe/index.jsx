@@ -27,9 +27,9 @@ function AboutMe  ()  {
                 </div>
                 <ul className='tech-list grid grid-cols-2 gap-y-[10px] mt-[20px] list-[disclosure-closed] pl-6 marker:text-Cyan text-sm'>
                     <li>Next.js</li>
-                    <li>JavaScript (ES6+)</li>
+                    <li>Node.js</li>
                     <li>React.js</li>
-                    <li>npm</li>
+                    <li>Firebase</li>
 
 
                 </ul>
